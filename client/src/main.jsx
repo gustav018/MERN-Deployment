@@ -10,6 +10,7 @@ import { BrowserRouter} from 'react-router-dom'
 import moment from 'moment/min/moment-with-locales'; // Importa Moment.js con todos los locales
 moment.locale('es');
 
+console.log(import.meta.env.VITE_TEST)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
