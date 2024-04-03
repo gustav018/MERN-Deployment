@@ -1,5 +1,5 @@
 import { useState } from "react"
-import useForm from "../../../../03_Person_Fullstack_refactor/client/src/hooks/useForm"
+import useForm from "../hooks/useForm"
 import SubMenu from "../components/SubMenu"
 import axios from "axios"
 import Swal from 'sweetalert2'
